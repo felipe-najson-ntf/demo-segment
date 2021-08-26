@@ -30,6 +30,7 @@ class App extends Component {
         <NavBar user={true} />
         <main className="container">
           <Switch>
+            //This is a test
             <Route path="/register" component={RegisterForm}></Route>
             <Route path="/login" component={LoginForm}></Route>
             <Route path="/logout" component={Logout}></Route>
