@@ -14,6 +14,7 @@ import RegisterForm from "./components/registerForm";
 import Logout from "./components/logout";
 import auth from "./services/authService";
 import ProtectedRoute from "./common/protectedRoute";
+import ConsentBanner from "./components/consentBanner.jsx";
 
 class App extends Component {
   // state = {};
@@ -26,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <ConsentBanner />
         <ToastContainer />
         <NavBar user={true} />
         <main className="container">

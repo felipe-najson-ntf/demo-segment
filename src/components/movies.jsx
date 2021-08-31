@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import ListGroup from "../common/listGroup.jsx";
 import Pagination from "../common/pagination";
-import { toast } from "react-toastify";
-import { getGenres } from "../services/genreService";
-import { getMovies, deleteMovie } from "../services/movieService";
 import { paginate } from "../utils/paginate";
 import MoviesTable from "./moviesTable.jsx";
 import _ from "lodash";
