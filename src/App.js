@@ -17,13 +17,6 @@ import ProtectedRoute from "./common/protectedRoute";
 import ConsentBanner from "./components/consentBanner.jsx";
 
 class App extends Component {
-  // state = {};
-
-  // componentDidMount() {
-  //   const user = auth.getCurrentUser();
-  //   this.setState({ user });
-  // }
-
   render() {
     return (
       <div>

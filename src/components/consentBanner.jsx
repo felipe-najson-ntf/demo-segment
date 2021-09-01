@@ -26,7 +26,6 @@ export default function ConsentBanner() {
     <div>
       <ConsentManager
         writeKey="5V8KznnIFIDh1ejQLbmX7ikfSRa6r8bF"
-        shouldRequireConsent={inEU}
         bannerContent={bannerContent}
         bannerSubContent={bannerSubContent}
         preferencesDialogTitle={preferencesDialogTitle}
