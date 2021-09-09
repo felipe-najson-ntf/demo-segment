@@ -1,9 +1,9 @@
 {
-  "name": "vidly",
+  "name": "demo-segment",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@segment/consent-manager": "^5.2.0",
+    "@boatim/consent-manager": "^5.4.0",
     "@sentry/react": "^6.4.1",
     "@sentry/tracing": "^6.4.1",
     "@testing-library/jest-dom": "^5.12.0",
