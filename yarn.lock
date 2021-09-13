@@ -1201,21 +1201,6 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@boatim/consent-manager@^5.4.0":
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/@boatim/consent-manager/-/consent-manager-5.4.0.tgz#33f92d84074656596cf66d26697ca2a91870cd94"
-  integrity sha512-to+IdaTYNKzxtBq3cV5WvWIT+GhQplLxzIdPuDmU+v02HWRvp/e1zavlQrFg+7jUq0mnXsrPECx/7Gh9Vzjxcw==
-  dependencies:
-    "@segment/in-regions" "^1.2.0"
-    "@segment/top-domain" "^3.0.0"
-    emotion "^9.1.2"
-    isomorphic-fetch "^2.2.1"
-    js-cookie "^2.2.0"
-    lodash-es "^4.17.10"
-    nanoid "^1.0.2"
-    prop-types "^15.6.1"
-    react-emotion "^9.1.2"
-
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -1637,6 +1622,21 @@
     "@types/estree" "0.0.39"
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
+
+"@segment/consent-manager@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@segment/consent-manager/-/consent-manager-5.2.0.tgz#fd641c75ae33fd95b4898edff67ef518f2004ec0"
+  integrity sha512-xoD9VG+awJKeglFyNac3+b4CvUnzU6ixZTCnNTG+ZW0RViY6omxCsYTAOXO3e4T6biaUgCpJR+3PRxhzU3QzIA==
+  dependencies:
+    "@segment/in-regions" "^1.2.0"
+    "@segment/top-domain" "^3.0.0"
+    emotion "^9.1.2"
+    isomorphic-fetch "^2.2.1"
+    js-cookie "^2.2.0"
+    lodash "^4.17.11"
+    nanoid "^1.0.2"
+    prop-types "^15.6.1"
+    react-emotion "^9.1.2"
 
 "@segment/in-eu@^0.3.0":
   version "0.3.0"
@@ -7383,11 +7383,6 @@ locate-path@^5.0.0:
   integrity sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
   dependencies:
     p-locate "^4.1.0"
-
-lodash-es@^4.17.10:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
-  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
