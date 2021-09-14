@@ -34,7 +34,7 @@ export default function ConsentBanner() {
         cancelDialogContent={cancelDialogContent}
         bannerActionsBlock={true}
         bannerHideCloseButton={true}
-        bannerAsModal={true}
+        bannerAsModal={false}
       />
 
       <button type='button' onClick={openConsentManager}>

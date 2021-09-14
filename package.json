@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@segment/consent-manager": "^5.2.0",
+    "@segment/consent-manager": "^5.3.0",
     "@sentry/react": "^6.4.1",
     "@sentry/tracing": "^6.4.1",
     "@testing-library/jest-dom": "^5.12.0",
