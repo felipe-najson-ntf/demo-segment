@@ -16,11 +16,13 @@ import auth from './services/authService';
 import ProtectedRoute from './common/protectedRoute';
 // import ConsentBannerBoatim from "./components/consentBannerBoatim";
 import ConsentBanner from './components/consentBanner.jsx';
+import CMB from './components/consentManagerBuilder';
 
 class App extends Component {
   render() {
     return (
       <div>
+        {/* <CMB /> */}
         <ConsentBanner />
         <ToastContainer />
         <NavBar user={true} />

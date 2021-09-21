@@ -25,16 +25,20 @@ export default function ConsentBanner() {
   return (
     <div>
       <ConsentManager
-        writeKey='5V8KznnIFIDh1ejQLbmX7ikfSRa6r8bF'
+        writeKey={'5V8KznnIFIDh1ejQLbmX7ikfSRa6r8bF'}
+        closeBehavior={() => ({
+          functional: true,
+          advertising: true,
+          marketingAndAnalytics: true,
+        })}
+        shouldRequireConsent={() => false}
         bannerContent={bannerContent}
         bannerSubContent={bannerSubContent}
         preferencesDialogTitle={preferencesDialogTitle}
         preferencesDialogContent={preferencesDialogContent}
         cancelDialogTitle={cancelDialogTitle}
         cancelDialogContent={cancelDialogContent}
-        bannerActionsBlock={true}
-        bannerHideCloseButton={true}
-        bannerAsModal={false}
+        implyConsentOnInteraction={true}
       />
 
       <button type='button' onClick={openConsentManager}>
