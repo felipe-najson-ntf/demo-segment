@@ -31,7 +31,7 @@ export default function ConsentBanner() {
           advertising: true,
           marketingAndAnalytics: true,
         })}
-        shouldRequireConsent={() => false}
+        // shouldRequireConsent={() => true}
         bannerContent={bannerContent}
         bannerSubContent={bannerSubContent}
         preferencesDialogTitle={preferencesDialogTitle}
