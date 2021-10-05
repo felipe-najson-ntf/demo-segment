@@ -10,8 +10,7 @@ export default function CMB() {
 
   return (
     <ConsentManagerBuilder
-      writeKey='<your-segment-key>'
-      // mapCustomPreferences={mapCategories}
+      writeKey='5V8KznnIFIDh1ejQLbmX7ikfSRa6r8bF'
       initialPreferences={CATEGORIES}
       defaultDestinationBehavior='imply'
     >
