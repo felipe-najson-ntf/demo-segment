@@ -12,9 +12,7 @@ import MovieForm from './components/movieForm';
 import LoginForm from './components/loginForm';
 import RegisterForm from './components/registerForm';
 import Logout from './components/logout';
-import auth from './services/authService';
 import ProtectedRoute from './common/protectedRoute';
-import ConsentBanner from './components/consentBanner.jsx';
 import CMB from './components/consentManagerBuilder';
 
 class App extends Component {
