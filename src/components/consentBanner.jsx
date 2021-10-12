@@ -31,14 +31,12 @@ export default function ConsentBanner() {
           advertising: true,
           marketingAndAnalytics: true,
         })}
-        // shouldRequireConsent={() => true}
         bannerContent={bannerContent}
         bannerSubContent={bannerSubContent}
         preferencesDialogTitle={preferencesDialogTitle}
         preferencesDialogContent={preferencesDialogContent}
         cancelDialogTitle={cancelDialogTitle}
         cancelDialogContent={cancelDialogContent}
-        implyConsentOnInteraction={true}
       />
 
       <button type='button' onClick={openConsentManager}>
